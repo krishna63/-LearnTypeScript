@@ -1,12 +1,21 @@
-# LearnTypeScript
-Lets have some fun by learning type script!!!
+# Typescript
+Hello Everyone, Lets have some fun by learning Typescript!!! :):)
 
-#### Why do we need Typescript and what advantages we are going to get ?
-  <ul>
-    <li>first</li>
-    </ul>
+## QuickLinks:
 
-    1) You can build a complete application for both front end and back end using Typescript
+#### What is Typescript ?
+<p>
+  A "superset of Javascript" which compiles to plain Javascript. It can run in any browser and any OS.
+  In other words it is an "improved version of Javascrript".
+</p>
 
-### What are the prelimany things for learning Typescript ?
+#### Why do we need Typescript and main features of the language ?
+  
+  1) Typescript helps us auto detecting the problems at compile time only.
+    <code>
+        const notModifiable = "Typescript";
+        notModifiable = "Javascript"
+    </code>
+
+#### What are the prelimany things for learning Typescript ?
 Javascript
