@@ -1,2 +1,2 @@
-# -LearnTypeScript
+# LearnTypeScript
 Learning Typescript
