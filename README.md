@@ -6,7 +6,7 @@ Hello Everyone, Lets have some fun by learning Typescript!!! :smiley:
 #### What is Typescript ?
 <p>
   A _superset of Javascript_ which compiles to plain Javascript. It can run in any browser and any OS.
-  In other words it is an *improved version of Javascrript*.
+  In other words it is an **improved version of Javascrript**.
 </p>
 
 #### Why do we need Typescript and main features of the language ?
