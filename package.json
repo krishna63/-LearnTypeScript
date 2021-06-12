@@ -5,6 +5,9 @@
   "main": "planJsIssues.js",
   "scripts": {
     "es6": "./node_modules/.bin/http-server -c1",
+    "td-primitive": "tsc ./features/td-primitive-L1.ts & node ./features/td-primitive-L1.js",
+    "td-nonprimitive": "tsc ./features/td-nonprimitive-L2.ts & node ./features/td-nonprimitive-L2.js",
+    "td-functionType": "tsc ./features/td-functiontype-L3.ts & node ./features/td-functiontype-L3.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
