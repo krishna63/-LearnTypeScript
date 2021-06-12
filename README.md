@@ -14,18 +14,33 @@ Hello Everyone, Lets have some fun by learning Typescript!!! :smiley:
     const notModifiable = "Typescript";
     notModifiable = "Javascript";
     ```
-  2) It also helps in autosuggest out of the box or definations of the variables.
-  3) It automatically makes type inference for the variables we declare or create.
+  2) Type definations of the program which avoids lot of bugs.
+   The type definations are auto detected based on the value assigned to it.
 
     ```javascript
+    let compilerName = "typescript compiler";
+    compilerName = 4.6.0 // this is not allowed, because it's type is string.
     let user = {
       language: 'typescript',
       dol: new Date()
     }
-    // not allowed in typescript as the type of user is already defined.
+    /**
+     * not allowed in typescript as the type of _user_ is already defined with only those two properties.
+     */
     user.vendor = "Microscoft"; 
     ```
+  3) You can build a complete application for both front end and back end using Typescript.
+  
+#### Prerequisites:
+    1) You need to have node and npm installed in your system.
 
+#### Configuring typescript
+    - create an empty node project `npm init`.
+    - Install typescript module `npm i typescript --save-dev` as it is a dev dependency.
+  
+  Once the typescript module is installed you can do following things:
+    - which tsc (run the command in the _git bash_ to findout location of the typescript compiler/nodemodule has been installed).
+    - tsc --version
 
-#### What are the prelimnary things for learning Typescript ?
-Javascript
+#### Points to make note of:
+    1) Typescript code files extension are suffixed with `.ts`. 

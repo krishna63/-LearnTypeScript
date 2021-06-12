@@ -1,0 +1,27 @@
+{
+  "name": "learntypescript",
+  "version": "1.0.0",
+  "description": "Learning typescript and its features",
+  "main": "planJsIssues.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krishna63/LearnTypeScript.git"
+  },
+  "keywords": [
+    "typescript",
+    "restapi"
+  ],
+  "author": "saikrishna",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/krishna63/LearnTypeScript/issues"
+  },
+  "homepage": "https://github.com/krishna63/LearnTypeScript#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^4.3.2"
+  }
+}
