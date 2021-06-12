@@ -33,19 +33,21 @@ Hello Everyone, Lets have some fun by learning Typescript!!! :smiley:
   
 #### Prerequisites:
     1) You need to install node and npm in your system.
-    2) Install any web server for instance _http-server_, `npm i http-server --save-dev`. This helps in serving the 
-    index page in the browser.
+    2) Install any web server for instance _http-server_, `npm i http-server --save-dev`.
+    This helps in serving the index page in the browser.
 
 #### Configuring Typescript
     - create an empty node project `npm init`.
     - Install typescript module `npm i typescript --save-dev` as it is a dev dependency.
   
   Once the typescript module is installed you can do following things:
-    - which tsc (run the command in the _git bash_ to findout location of the typescript compiler/nodemodule has been installed).
+    - which tsc (run the command in the _git bash_ to findout location of the typescript
+    compiler/nodemodule has been installed).
     - tsc --version
 
 #### Points to make note of:
     1) Typescript code files extension are suffixed with `.ts`. 
 
 #### Scripts section of package.json:
-    1) "es6": To run the static files like(index page) in the browser, so that transpiled code is executing. Used `c1` to clear the cache.
+    1) "es6": To run the static files like(index page) in the browser, so that transpiled code
+    is executing. Used `c1` to clear the cache.
