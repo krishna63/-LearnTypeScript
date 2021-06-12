@@ -8,6 +8,8 @@
     "td-primitive": "tsc ./features/td-primitive-L1.ts & node ./features/td-primitive-L1.js",
     "td-nonprimitive": "tsc ./features/td-nonprimitive-L2.ts & node ./features/td-nonprimitive-L2.js",
     "td-functionType": "tsc ./features/td-functiontype-L3.ts & node ./features/td-functiontype-L3.js",
+    "erasingTypes": "tsc ./features/erasedTypes.ts & node ./features/erasedTypes.js",
+    "erasingTypes:noError": "tsc --noEmitOnError ./features/erasedTypes.ts & node ./features/erasedTypes.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
