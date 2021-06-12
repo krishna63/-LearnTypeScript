@@ -11,6 +11,7 @@ var stringVariable = 'typescript';
 // Without loosing flexibility
 var stringOrNumberVariable = 'typescript';
 stringOrNumberVariable = 4.6;
+console.log(stringOrNumberVariable);
 /**
  * Advantage 2: Leveraging the advanced features of Javascript
  *  1) Arrow functions are not supported by all browsers, but still we can
@@ -21,6 +22,9 @@ var player = {
     name: 'Sachin tendulkar',
     plays: function () { return console.log("He plays cricket"); }
 };
+console.log('Player Info:: ', player);
 /**
  * Advantage 3: It can be used for both front end and back end development of the project.
+ * Advantage 4: It can help in showing the defination, types of the variable
+ * See you in the next section.
  */

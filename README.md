@@ -32,9 +32,11 @@ Hello Everyone, Lets have some fun by learning Typescript!!! :smiley:
   3) You can build a complete application for both front end and back end using Typescript.
   
 #### Prerequisites:
-    1) You need to have node and npm installed in your system.
+    1) You need to install node and npm in your system.
+    2) Install any web server for instance _http-server_, `npm i http-server --save-dev`. This helps in serving the 
+    index page in the browser.
 
-#### Configuring typescript
+#### Configuring Typescript
     - create an empty node project `npm init`.
     - Install typescript module `npm i typescript --save-dev` as it is a dev dependency.
   
@@ -44,3 +46,6 @@ Hello Everyone, Lets have some fun by learning Typescript!!! :smiley:
 
 #### Points to make note of:
     1) Typescript code files extension are suffixed with `.ts`. 
+
+#### Scripts section of package.json:
+    1) "es6": To run the static files like(index page) in the browser, so that transpiled code is executing. Used `c1` to clear the cache.

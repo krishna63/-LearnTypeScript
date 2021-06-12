@@ -15,6 +15,7 @@ let stringVariable = 'typescript';
 let stringOrNumberVariable: string | number = 'typescript';
 
 stringOrNumberVariable = 4.6;
+console.log(stringOrNumberVariable);
 
 /**
  * Advantage 2: Leveraging the advanced features of Javascript
@@ -26,7 +27,7 @@ const player = {
   name: 'Sachin tendulkar',
   plays: () => console.log(`He plays cricket`),
 };
-
+console.log('Player Info:: ', player);
 /**
  * Advantage 3: It can be used for both front end and back end development of the project.
  * See you in the next section.
