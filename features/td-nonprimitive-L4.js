@@ -1,5 +1,14 @@
 /**
- * Type Defination Tutorial :2
+ * Type Defination Tutorial :4
+ * Non primitive types:
+ *  - Object
+ *
+ * Points to learn
+ *  - implict object type declaration
+ *  - Optional parameters
+ *  - How optional parameters can help in reducing the `if` blocks
+ *
+ * Again this is common because in JS every thing are objects.
  * Let's start with implicit declaration of objects
  */
 var langInformation = {

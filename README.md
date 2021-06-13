@@ -72,6 +72,22 @@ Hello Everyone, Lets have some fun by learning Typescript!!! :smiley:
     even if there is an error in the code the transpilation is done. In order to prevent from generating
     respective js files then we need to enable the `noEmitError` flag
 
+What is Union Types ?
+    Typescript allows you to build new types using the existing ones with large variety of operators.
+    Refer more for the example file `td-unionType-L4.ts` file.
+
+What is Type Alias ?
+    We have been using object types and union types directly by annotating them, but if we want to use
+    the same type again and again, here comes the `type` aliasing and the keyword for it is `type`
+    `type <name of any Type>` 
+    _Ex_: `type ID = string | number`;
+
+What is an Interface ?
+    - It is another way of defining the type of an object or class.
+    - In OOPS terminology an Interface is nothing but blueprint of the object.
+
+Read more about [differences](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#differences-between-type-aliases-and-interfaces) between interface and type
+
 #### Points to make note of:
     1) Typescript code files extension are suffixed with `.ts`. 
 

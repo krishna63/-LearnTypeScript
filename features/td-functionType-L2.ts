@@ -1,5 +1,5 @@
 /**
- * Type Defination Tutorial :3
+ * Type Defination Tutorial 2
  * Let's understand what is function type and how it is helpful.
  */
 
@@ -21,8 +21,16 @@ greetingMessage = createMessage({ name: 'userName' });
 console.log(greetingMessage); // o/p Hello [object object], How are you doing??
 
 /**
- * The problem again in the above program it is not type safe,
- * So, we can create a type defination for it by using `type` keyword.
+ * Parameter and return type annotation.
+ * Explain the syntax.
+ */
+function createMessageWithType(name: string): string {
+  return `Hello ${name}, How are you doing ??`;
+}
+
+/**
+ * The problem again in the `createMessage` program it is not type safe,
+ * Alternatively, we can also create using type defination and keyword is `type`.
  */
 type MessageCreator = (name: string) => string;
 

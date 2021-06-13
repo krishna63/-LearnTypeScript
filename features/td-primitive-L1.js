@@ -1,6 +1,6 @@
 /**
  * Type Defination Tutorial :1
- * Primitive Types:
+ * Primitive Types: string, number and boolean.
  *
  * Types are implicitly inferred by the type of the value you have assigned to it.
  * But you can assign the Type explictly as well.

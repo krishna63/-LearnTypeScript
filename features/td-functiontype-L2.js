@@ -1,5 +1,5 @@
 /**
- * Type Defination Tutorial :3
+ * Type Defination Tutorial 2
  * Let's understand what is function type and how it is helpful.
  */
 /**
@@ -15,6 +15,13 @@ console.log(greetingMessage); // o/p Hello FED Team Members, How are you doing ?
 // Now if i pass an object.
 greetingMessage = createMessage({ name: 'userName' });
 console.log(greetingMessage); // o/p Hello [object object], How are you doing??
+/**
+ * Parameter and return type annotation.
+ * Explain the syntax.
+ */
+function createMessageWithType(name) {
+    return "Hello " + name + ", How are you doing ??";
+}
 /**
  * We are saying that it is function which takes a single mandatory argument
  * and return type is string.
