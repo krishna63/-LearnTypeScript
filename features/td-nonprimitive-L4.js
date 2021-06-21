@@ -4,7 +4,7 @@
  *  - Object
  *
  * Points to learn
- *  - implict object type declaration
+ *  - implict object type declaration/Type aliasing
  *  - Optional parameters
  *  - How optional parameters can help in reducing the `if` blocks
  *
@@ -22,12 +22,12 @@ var langInformation = {
  *
  * Hence it was throwing an error. So to fix this we have to declare its type as any
  */
-//langInformation.currentVersion = 4.6;
+//langInformation.currentVersion = 4.3;
 var langInformationAsAnyType = {
     name: 'typescript',
     vendor: 'microsoft'
 };
-langInformationAsAnyType.currentVersion = 4.6;
+langInformationAsAnyType.currentVersion = 4.3;
 var langInformationWithCustomType = {
     name: 'typescript',
     vendor: 'microsoft'
@@ -36,7 +36,7 @@ var langInformationWithCustomType = {
  * In the above declartion we have skipped currentVersion as it optional and in order to make
  * it optional, all we need to do is suffix it with `?`.
  */
-langInformationWithCustomType.currentVersion = 4.6;
+langInformationWithCustomType.currentVersion = 4.3;
 var langInfoUsingComplexType = {
     basicInfo: {
         name: 'typescript',
@@ -52,9 +52,10 @@ var langInfoUsingComplexType = {
 };
 var langInformationWithInterface = {
     name: 'typescript',
-    currentVersion: 4.6
+    currentVersion: 4.3
 };
-console.log('=====Ran the program========');
+langInformationWithInterface.vendor = 'Microsoft';
+console.log('===== Ran the program========');
 /**
  * Next lets see difference between interface and types.
  */

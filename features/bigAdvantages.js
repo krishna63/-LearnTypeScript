@@ -10,7 +10,7 @@ var stringVariable = 'typescript';
 //stringVariable = 10
 // Without loosing flexibility
 var stringOrNumberVariable = 'typescript';
-stringOrNumberVariable = 4.6;
+stringOrNumberVariable = 4.3;
 console.log(stringOrNumberVariable);
 /**
  * Advantage 2: Leveraging the advanced features of Javascript

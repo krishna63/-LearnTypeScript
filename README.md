@@ -3,12 +3,6 @@ Hello Everyone, Lets have some fun by learning Typescript!!! :smiley:
 
 ## QuickLinks:
 
-#### What is Typescript ?
-  - A **_superset of Javascript_** which compiles to plain Javascript. It can run in any browser and any OS.
-  - In other words it is an **improved version of Javascrript**.
-  - A static type checker which helps in describing the shape and behavior of what our values will be
-  when our program runs.
-
 #### Problems with Javascript ?
   - JS is a dynamic typing meaning running the code to see what happens. Lets take an example
     
@@ -23,6 +17,13 @@ Hello Everyone, Lets have some fun by learning Typescript!!! :smiley:
 
     Static type - Helps in making predictions about what code is expected before it runs.
 
+#### What is Typescript ?
+  - A **_superset of Javascript_** which compiles to plain Javascript. It can run in any browser and any OS.
+  - In other words it is an **improved version of Javascrript**.
+  - A static type checker which helps in describing the shape and behavior of what our values will be
+  when our program runs.
+  - It is also called as a structurally typed system. Ref `td-nonprimitive-L4`
+
 #### Why do we need Typescript and main features of the language ?
   
   1) Typescript helps us auto detecting the problems at __compile time rather than at run time__.  
@@ -35,7 +36,7 @@ Hello Everyone, Lets have some fun by learning Typescript!!! :smiley:
 
     ```javascript
     let compilerName = "typescript compiler";
-    compilerName = 4.6.0 // this is not allowed, because it's type is string.
+    compilerName = 4.3.0 // this is not allowed, because it's type is string.
     let user = {
       language: 'typescript',
       dol: new Date()
@@ -46,11 +47,12 @@ Hello Everyone, Lets have some fun by learning Typescript!!! :smiley:
     user.vendor = "Microscoft"; 
     ```
   3) You can build a complete application for both front end and back end using Typescript.
-  4) Autosuggest the properties as and when required.
 
 #### When it can infer types why do we need to explicitly declare them ?
     - We will use wide variety of design patterns, however some patterns make it difficult for typescript
     to infer automatically(for ex: dynamic programming is one use case.)
+    ``` document.getElementById()``` returns an HTML element, but if you are querying for a canvas element
+    then its type is htmlCanvaselement. Hence we need to declare types.
   
 #### Prerequisites:
     1) You need to install node and npm in your system.

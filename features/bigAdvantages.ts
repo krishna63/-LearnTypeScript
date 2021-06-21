@@ -14,7 +14,7 @@ let stringVariable = 'typescript';
 
 let stringOrNumberVariable: string | number = 'typescript';
 
-stringOrNumberVariable = 4.6;
+stringOrNumberVariable = 4.3;
 console.log(stringOrNumberVariable);
 
 /**

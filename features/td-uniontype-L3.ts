@@ -20,9 +20,10 @@ printEmpId({ uid: 'u400463' });
 
 /**
  * Lets assume we want to run different code based on type.
- * For example `toLowerCase`, but tht function is not available on number so we use `typeof`
+ * For example `toLowerCase`, but tht method is not available on number so we use `typeof`
  * and write conditional code.
- * so let's rewrite the above function.
+ * so let's rewrite the above function. We did not loose the JS flexibility but
+ * we wrote a type safe program.
  */
 function printEmployeeId(uid: string | number): void {
   if (typeof uid === 'string') {
