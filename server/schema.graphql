@@ -1,0 +1,25 @@
+"""
+  typeDefinations defines the graphQl schema
+  ! mark indicates that it cannot be null and it is of type string
+"""
+type Link {
+  id: ID!
+  description: String!
+  url: String!
+}
+enum LinkFieldNames {
+	description
+	url
+}
+
+type Query {
+  info: String!
+  feed(top: Int): [Link!]!
+	getFeedByField(searchSt: String!, fieldName: LinkFieldNames!): [Link!]!
+}
+
+type Mutation {
+  createFeed(url: String!, description: String!): Link!
+	updateFeed(id: ID!, fieldName: LinkFieldNames!, newContent: String!): Link
+	deleteFeed(id: ID!): Link
+}
